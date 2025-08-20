@@ -1,6 +1,6 @@
 <?php
 
-namespace Spinen\QuickBooks;
+namespace JoseSierraDev\QuickBooks;
 
 use ArrayAccess;
 use Countable;

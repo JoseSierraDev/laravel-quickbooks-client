@@ -1,11 +1,10 @@
 {
-  "name": "spinen/laravel-quickbooks-client",
-  "description": "SPINEN's Laravel Client for QuickBooks.",
+  "name": "josesierradev/laravel-quickbooks-client",
+  "description": "Laravel Client for QuickBooks.",
   "keywords": [
     "quickbooks",
     "client",
-    "laravel",
-    "spinen"
+    "laravel"
   ],
   "license": "MIT",
   "authors": [
@@ -15,13 +14,12 @@
     }
   ],
   "require": {
-    "php": "^8.0.2",
-    "illuminate/database": "^9.19",
-    "illuminate/http": "^9.19",
-    "illuminate/routing": "^9.19",
-    "illuminate/support": "^9.19",
-    "nesbot/carbon": "^2.62.1",
-    "quickbooks/v3-php-sdk": "^5.4.6"
+      "php": ">=7.3",
+      "illuminate/database": "~5.5|~6|~7|~8|~9",
+      "illuminate/http": "~5.5|~6|~7|~8|~9",
+      "illuminate/routing": "~5.5|~6|~7|~8|~9",
+      "nesbot/carbon": "^1.26.3|^2.0",
+      "quickbooks/v3-php-sdk": "^6.1.0"
   },
   "require-dev": {
     "laravel/pint": "^1.2",
@@ -32,19 +30,19 @@
   },
   "autoload": {
     "psr-4": {
-      "Spinen\\QuickBooks\\": "src/"
+      "JoseSierraDev\\QuickBooks\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Spinen\\QuickBooks\\": "tests/"
+      "JoseSierraDev\\QuickBooks\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Spinen\\QuickBooks\\Providers\\ServiceProvider",
-        "Spinen\\QuickBooks\\Providers\\ClientServiceProvider"
+        "JoseSierraDev\\QuickBooks\\Providers\\ServiceProvider",
+        "JoseSierraDev\\QuickBooks\\Providers\\ClientServiceProvider"
       ]
     }
   },

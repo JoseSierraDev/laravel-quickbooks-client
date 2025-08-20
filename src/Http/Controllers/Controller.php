@@ -1,6 +1,6 @@
 <?php
 
-namespace Spinen\QuickBooks\Http\Controllers;
+namespace JoseSierraDev\QuickBooks\Http\Controllers;
 
 use Exception;
 use Illuminate\Contracts\Routing\UrlGenerator;
@@ -13,7 +13,7 @@ use Illuminate\Routing\Redirector;
 use Illuminate\View\View;
 use QuickBooksOnline\API\Exception\SdkException;
 use QuickBooksOnline\API\Exception\ServiceException;
-use Spinen\QuickBooks\Client as QuickBooks;
+use JoseSierraDev\QuickBooks\Client as QuickBooks;
 
 /**
  * Class Controller

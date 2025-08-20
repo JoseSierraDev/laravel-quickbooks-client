@@ -1,10 +1,10 @@
 <?php
 
-namespace Spinen\QuickBooks\Providers;
+namespace JoseSierraDev\QuickBooks\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-use Spinen\QuickBooks\Http\Middleware\Filter;
+use JoseSierraDev\QuickBooks\Http\Middleware\Filter;
 
 /**
  * Class ServiceProvider
@@ -89,7 +89,7 @@ class ServiceProvider extends LaravelServiceProvider
             ->prefix($config['prefix'])
             ->as('quickbooks.')
             ->middleware($config['middleware']['default'])
-            ->namespace('Spinen\QuickBooks\Http\Controllers')
+            ->namespace('JoseSierraDev\QuickBooks\Http\Controllers')
             ->group(function (Router $router) use ($config) {
                 $router
                     ->get($config['paths']['connect'], 'Controller@connect')

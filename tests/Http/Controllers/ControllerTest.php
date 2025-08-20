@@ -1,6 +1,6 @@
 <?php
 
-namespace Spinen\QuickBooks\Http\Controllers;
+namespace JoseSierraDev\QuickBooks\Http\Controllers;
 
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Contracts\View\Factory as ViewFactory;
@@ -12,8 +12,8 @@ use Illuminate\Session\Store;
 use Mockery;
 use Mockery\Mock;
 use QuickBooksOnline\API\DataService\DataService;
-use Spinen\QuickBooks\Client as QuickBooks;
-use Spinen\QuickBooks\TestCase;
+use JoseSierraDev\QuickBooks\Client as QuickBooks;
+use JoseSierraDev\QuickBooks\TestCase;
 
 /**
  * Class ControllerTest

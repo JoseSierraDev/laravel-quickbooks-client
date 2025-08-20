@@ -1,6 +1,6 @@
 <?php
 
-namespace Spinen\QuickBooks\Http\Middleware;
+namespace JoseSierraDev\QuickBooks\Http\Middleware;
 
 use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Contracts\Session\Session;
@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Redirector;
 use Mockery;
 use Mockery\Mock;
-use Spinen\QuickBooks\Client as QuickBooks;
-use Spinen\QuickBooks\TestCase;
+use JoseSierraDev\QuickBooks\Client as QuickBooks;
+use JoseSierraDev\QuickBooks\TestCase;
 
 /**
  * Class FilterTest

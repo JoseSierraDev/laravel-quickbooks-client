@@ -1,8 +1,8 @@
 <?php
 
-namespace Spinen\QuickBooks;
+namespace JoseSierraDev\QuickBooks;
 
-use Spinen\QuickBooks\Stubs\User;
+use JoseSierraDev\QuickBooks\Stubs\User;
 
 /**
  * Class HasQuickBooksTokenTest

@@ -1,13 +1,13 @@
 <?php
 
-namespace Spinen\QuickBooks;
+namespace JoseSierraDev\QuickBooks;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Mockery;
 use QuickBooksOnline\API\Core\OAuth\OAuth2\OAuth2AccessToken;
-use Spinen\QuickBooks\Stubs\TokenStub;
-use Spinen\QuickBooks\Stubs\User;
+use JoseSierraDev\QuickBooks\Stubs\TokenStub;
+use JoseSierraDev\QuickBooks\Stubs\User;
 
 /**
  * Class TokenTest

@@ -1,12 +1,12 @@
 <?php
 
-namespace Spinen\QuickBooks\Stubs;
+namespace JoseSierraDev\QuickBooks\Stubs;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Mockery;
-use Spinen\QuickBooks\HasQuickBooksToken;
+use JoseSierraDev\QuickBooks\HasQuickBooksToken;
 
 /**
  * Class User

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spinen\QuickBooks;
+namespace JoseSierraDev\QuickBooks;
 
 use App\Models\User;
 use Carbon\Carbon;
